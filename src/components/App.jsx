@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import PostsApiService from 'services/PostApiService';
+//import PostsApiService from 'services/PostApiService';
 
 import { Searchbar } from './Searchbar/Searchbar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
@@ -12,7 +12,7 @@ import { Loader } from 'components/Loader/Loader';
 
 import { AppContent } from './App.module';
 
-const postApiService = new PostsApiService();
+const postApiService = new postsApiService();
 
 export const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
