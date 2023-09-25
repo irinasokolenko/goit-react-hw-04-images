@@ -9,7 +9,7 @@ import { Loader } from 'components/Loader/Loader';
 import { AppContent } from './App.module';
 const postApiService = new PostsApiService();
 
-export class App extends Component {
+export const App = () => extends Component {
   state = {
     searchQuery: ``,
     galleryItems: [],
