@@ -1,7 +1,9 @@
+import { useState } from 'react';
+import PropTypes from 'prop-types';
+
 import { Modal } from 'components/Modal/Modal';
 import { GalleryItem, GalleryImg } from './ImageGalleryItem.module';
-import {  seState } from 'react';
-import PropTypes from 'prop-types';
+
 export const ImageGalleryItem = ({
   galleryItem: { webformatURL, largeImageURL, tags },
 }) => {
